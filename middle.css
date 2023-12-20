@@ -1,0 +1,467 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quti{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}.quti img {
+    margin-left: 10%;
+    width: 10%;
+}
+#tg{
+    text-decoration: none;
+    font-size: 25px;
+   margin-left: 45%;
+}
+.sidenav { 
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: orange;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+ 
+    color: black;
+  }
+  
+  .sidenav .closebtn {
+ 
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #tep{
+    display: flex;
+    text-align: left;
+    justify-items: left;
+
+ 
+
+    color: white;
+  }
+video{
+
+    width: 70%;
+   
+    margin-left: 20%;
+    margin-top: 3%;
+
+  }
+
+ #qora{
+   
+color: orange;
+  }
+h1{ 
+    margin-top: 3%;
+    text-align: center;
+   
+    margin-left: 40%;
+    color: white;
+  
+}
+
+h3{ 
+     margin-top: 3%;
+    font-size: 35px;
+    margin-left: 23%;
+
+    color: white;
+}
+
+#sall{
+    
+    
+    margin-top: 3%;
+    
+}
+#sariq{
+    color: orange;
+}
+
+
+
+
+
+.tops {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disklar1 {
+    background-color: white;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 35%; /* Adjust as needed */
+}
+
+.img-container {
+    position: relative;
+   
+    width: 100%; /* Ensures the image takes the full width of the container */
+  
+    border-radius: 50%; /* Makes the container and image round (optional) */
+}
+
+#disk {
+    position:relative;
+    bottom: 90%;
+    width: 100%; /* Ensures the image takes the full width of its container */
+    border-radius: inherit; /* Inherits the border-radius from the parent container */
+}
+
+.plar {
+    display:flex;
+     color: rgb(154, 71, 71);
+    margin-top: 10px;
+}
+h2{ font-size: 30px;
+    text-align: center;
+}
+
+/* hullas disklar */
+/* .tops{ 
+    gap: 10%;
+   
+
+   
+    margin-top: 5%;
+    margin-left: 5%;
+    
+    display: flex;
+    align-items: center;
+   
+
+
+
+}
+
+#disk1{
+    position: relative;
+    bottom: 20%;
+    width: 40%;
+}
+.disklar1 h6{
+    position: relative;
+ margin-bottom: 300%;
+}
+#zzz{
+    position: relative;
+    font-size: 30px;
+   text-align: center;
+   bottom:100%;
+
+    
+}  
+
+#disk{
+     position: relative;
+    
+    width: 80%;
+}
+.disklar1{ 
+    border-radius: 25px;
+    display: block;
+    background-color: rgb(213, 198, 198);
+    width: 90%;
+}
+
+#sonii{ 
+
+  
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.disklar1 h4{
+    position: relative;
+    bottom: 33%;
+    font-size: 25px;
+    text-align: center;
+}
+p{
+    font-size: 28px;
+
+    padding: 3%;
+    background-color:black;   
+    position: relative;
+   
+    border: solid 1px;
+    border-radius: 10px;
+      display: inline;
+      left: 8%;
+     margin: 20px;
+      color: rgb(218, 211, 211);
+     
+      
+    } */
+
+
+    /* .disklar2{ 
+        border-radius: 25px;
+        display: block;
+        background-color: rgb(213, 198, 198);
+        width: 33%;
+    }
+    .disklar3{ 
+        border-radius: 25px;
+        display: block;
+        background-color:  rgb(213, 198, 198);
+        width: 33%;
+    }
+    .plar{
+        position: relative;
+       
+  
+        bottom: 10%;
+        
+    }
+   
+
+
+
+.disklar3 h6{
+    position: relative;
+    top: 5%;
+
+}
+.disklar3 h4{
+    position: relative;
+    top: 5%;
+
+}
+.disklar3 p{
+    position: relative;
+    top:10%;
+
+} */
+#reting{ margin-top: 5%;
+  font-size: 40px;
+    color: white;
+    margin-left: 20%;
+}
+#likeolx{
+   
+        
+     
+    border: solid 5px rgb(29, 130, 238)  ;
+   
+    width: 26%;
+    height: 30%;
+ margin-left: 6%;
+    background-color: white;
+margin-top: 10%;
+display: block;
+border-radius: 25px;
+display: block
+
+
+}
+
+
+#likeolx img{
+    border-radius: 25px;
+    position: relative;
+    right: 10%;
+
+   
+    
+    
+  
+    width: 100%;
+    
+
+    
+     }
+
+ 
+
+#names{
+    position:relative;
+    bottom: 50px;
+    text-align: center;
+  
+   
+  
+    font-size: 30px;
+    color: black;
+}
+#likeolx a{
+    border-radius: 15px;
+    position: relative;
+    top: 8%;
+
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+   justify-items: center;
+   text-align: center;
+    color: rgb(250, 250, 250);
+    background-color: rgb(29, 130, 238);
+    
+    
+
+
+}
+
+.alll{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+   
+  
+    flex-wrap: wrap;
+  
+
+
+
+}
+
+/* bu ikkinchi olx  */
+
+
+#likeolx1{
+    
+   
+        
+     
+    border: solid 5px rgb(29, 130, 238)  ;
+   
+    width: 26%;
+    height: 30%;
+ margin-left: 5%;
+    background-color: white;
+margin-top: 10%;
+display: block;
+border-radius: 25px;
+display: block
+
+
+}
+#likeolx1 a{
+    top: 8%;
+    border-radius: 20px;
+    position: relative;
+
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+   justify-items: center;
+   text-align: center;
+    color: rgb(250, 250, 250);
+    background-color: rgb(29, 130, 238);
+    
+    
+
+
+}
+#likeolx1 img{
+    border-radius: 25px;
+    position: relative;
+    right: 10%;
+
+   
+    
+    
+  
+    width: 100%;
+    
+
+    
+     }
+    /* bu 3*/
+    #likeolx1 h6{
+
+        margin-top: 5%;
+    }
+    #likeolx2 h6{
+
+        margin-top: 5%;
+    }
+    #likeolx h6{
+
+        margin-top: 5%;
+    }
+    #likeolx2{
+   
+       
+     
+        border: solid 5px rgb(29, 130, 238)  ;
+       
+        width: 26%;
+    height: 30%;
+     margin-left: 5%;
+        background-color: white;
+    margin-top: 10%;
+    display: block;
+    border-radius: 25px;
+    display: block
+    
+    
+    }
+    #likeolx2 a{
+        border-radius: 20px;
+        position: relative;
+        top: 8%;
+    
+        font-size: 40px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+       justify-items: center;
+       text-align: center;
+        color: rgb(250, 250, 250);
+        background-color: rgb(29, 130, 238);
+        
+        
+    
+    
+    }
+    #likeolx2 img{
+        border-radius: 25px;
+        position: relative;
+        right: 10%;
+    
+       
+        
+        
+      
+        width: 100%;
+        
+    
+        
+         }
